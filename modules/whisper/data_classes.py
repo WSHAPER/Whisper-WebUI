@@ -160,6 +160,14 @@ class DiarizationParams(BaseParams):
         default="",
         description="Hugging Face token for downloading diarization models"
     )
+    min_speakers: Optional[int] = Field(
+        default=None,
+        description="Minimum number of speakers for diarization (optional)"
+    )
+    max_speakers: Optional[int] = Field(
+        default=None,
+        description="Maximum number of speakers for diarization (optional)"
+    )
     enable_offload: bool = Field(
         default=True,
         description="Offload Diarization model after Speaker diarization"
@@ -184,6 +192,18 @@ class DiarizationParams(BaseParams):
                 label=_("HuggingFace Token"),
                 value=defaults.get("hf_token", cls.__fields__["hf_token"].default),
                 info=_("This is only needed the first time you download the model")
+            ),
+            gr.Number(
+                label=_("Min Speakers"),
+                value=defaults.get("min_speakers", None),
+                precision=0,
+                info=_("Minimum expected speakers (leave empty for auto-detection)")
+            ),
+            gr.Number(
+                label=_("Max Speakers"),
+                value=defaults.get("max_speakers", None),
+                precision=0,
+                info=_("Maximum expected speakers (leave empty for auto-detection)")
             ),
             gr.Checkbox(
                 label=_("Offload sub model when finished"),

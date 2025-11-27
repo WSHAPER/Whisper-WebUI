@@ -11,6 +11,9 @@ services:
       - ./models:/Whisper-WebUI/models
       - ./outputs:/Whisper-WebUI/outputs
       - ./configs:/Whisper-WebUI/configs
+      # Mount local code for development
+      - ./modules:/Whisper-WebUI/modules
+      - ./backend:/Whisper-WebUI/backend
 
     ports:
       - "7860:7860"

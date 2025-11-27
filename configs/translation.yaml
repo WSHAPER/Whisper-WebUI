@@ -25,6 +25,12 @@ en:
     to enter. To download the model, you must manually go to "https://huggingface.co/pyannote/speaker-diarization-3.1"
     and "https://huggingface.co/pyannote/segmentation-3.0" and agree to their requirement.
   HuggingFace Token: HuggingFace Token
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarization
   GENERATE SUBTITLE FILE: GENERATE SUBTITLE FILE
   Output: Output
@@ -75,6 +81,12 @@ ko:
     이미 다운로드 받으신 상태라면 입력하지 않아도 됩니다. 모델을 다운 받기 위해선 "https://huggingface.co/pyannote/speaker-diarization-3.1"
     와 "https://huggingface.co/pyannote/segmentation-3.0" 에서 먼저 사용 지침에 동의하셔야 합니다.
   HuggingFace Token: 허깅페이스 토큰
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: 화자 구분
   GENERATE SUBTITLE FILE: 자막 파일 생성
   Output: 결과물
@@ -127,6 +139,12 @@ ja:
     to enter. To download the model, you must manually go to "https://huggingface.co/pyannote/speaker-diarization-3.1"
     and "https://huggingface.co/pyannote/segmentation-3.0" and agree to their requirement.
   HuggingFace Token: HuggingFace Token
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarization
   GENERATE SUBTITLE FILE: GENERATE SUBTITLE FILE
   Output: Output
@@ -180,6 +198,12 @@ es:
     to enter. To download the model, you must manually go to "https://huggingface.co/pyannote/speaker-diarization-3.1"
     and "https://huggingface.co/pyannote/segmentation-3.0" and agree to their requirement.
   HuggingFace Token: HuggingFace Token
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarization
   GENERATE SUBTITLE FILE: GENERATE SUBTITLE FILE
   Output: Output
@@ -236,6 +260,12 @@ fr:
     sur "https://huggingface.co/pyannote/speaker-diarization-3.1" et "https://huggingface.co/pyannote/segmentation-3.0"
     et accepter leurs conditions.
   HuggingFace Token: Token HuggingFace
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarisation
   GENERATE SUBTITLE FILE: GÉNÉRER UN FICHIER DE SOUS-TITRES
   Output: Sortie
@@ -291,6 +321,12 @@ de:
     die Seiten „https://huggingface.co/pyannote/speaker-diarization-3.1“ und „https://huggingface.co/pyannote/segmentation-3.0“
     besuchen und deren Anforderungen zustimmen.
   HuggingFace Token: HuggingFace-Token
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarisierung
   GENERATE SUBTITLE FILE: UNTERTITELDATEI ERSTELLEN
   Output: Ausgabe
@@ -327,23 +363,33 @@ nl:
   File Format: Bestandstype
   Translate to English?: Naar Engels vertalen? (Whispers End-To-End Speech-To-Text
     vertaalfunctie)
-  Add a timestamp to the end of the filename: Tijdstempel aan het einde van de bestandsnaam toevoegen
+  Add a timestamp to the end of the filename: Tijdstempel aan het einde van de bestandsnaam
+    toevoegen
   Offload sub model when finished: Offload model na voltooiing
   Advanced Parameters: Geavanceerde Parameters
-  Enabling this will remove background music: Hiermee wordt achtergrondmuziek door het submodel verwijderd, voorafgaand aan de transcriptie
+  Enabling this will remove background music: Hiermee wordt achtergrondmuziek door
+    het submodel verwijderd, voorafgaand aan de transcriptie
   Enable Background Music Remover Filter: Achtergrondmuziek-verwijderingsfilter inschakelen
   Device: Apparaat
   Save separated files to output: Resultaat als aparte bestanden opslaan
   Background Music Remover Filter: Achtergrondmuziek-verwijderingsfilter
-  Enable this to transcribe only detected voice: Hiermee worden alleen de door het submodel gedetecteerde stemsegmenten getranscribeerd
+  Enable this to transcribe only detected voice: Hiermee worden alleen de door het
+    submodel gedetecteerde stemsegmenten getranscribeerd
   Enable Silero VAD Filter: Silero VAD-filter inschakelen
   Voice Detection Filter: Stemdetectie-filter
   Enable Diarization: Diarisatie inschakelen
-  This is only needed the first time you download the model: Dit is alleen nodig de eerste keer dat
-    je het model downloadt. Als je al modellen hebt, is dit niet nodig. Om het model te downloaden
-    kun je naar "https://huggingface.co/pyannote/speaker-diarization-3.1" en "https://huggingface.co/pyannote/segmentation-3.0" 
-    gaan en daar de voorwaarden accepteren.
+  This is only needed the first time you download the model: Dit is alleen nodig de
+    eerste keer dat je het model downloadt. Als je al modellen hebt, is dit niet nodig.
+    Om het model te downloaden kun je naar "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    en "https://huggingface.co/pyannote/segmentation-3.0" gaan en daar de voorwaarden
+    accepteren.
   HuggingFace Token: HuggingFace-token
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarisatie
   GENERATE SUBTITLE FILE: ONDERTITELINGSBESTAND GENEREREN
   Output: Resultaat
@@ -365,7 +411,8 @@ nl:
   DeepL API: DeepL API
   NLLB: NLLB
   T2T Translation: T2T Vertaling
-  Upload Audio Files to separate background music: Audiobestanden uploaden, om achtergrondmuziek te scheiden
+  Upload Audio Files to separate background music: Audiobestanden uploaden, om achtergrondmuziek
+    te scheiden
   SEPARATE BACKGROUND MUSIC: ACHTERGRONDMUZIEK SCHEIDEN
   Instrumental: Instrumenteel
   Vocals: Stemmen
@@ -393,6 +440,12 @@ zh:
     要下载模型，您必须先在"https://huggingface.co/pyannote/speaker-diarization-3.1" 与 "https://huggingface.co/pyannote/segmentation-3.0"
     上同意他们的使用条款。
   HuggingFace Token: HuggingFace令牌
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: 说话人分离设置
   GENERATE SUBTITLE FILE: 生成字幕文件
   Output: 输出
@@ -445,6 +498,12 @@ uk:
     завантажити модель, потрібно вручну перейти на "https://huggingface.co/pyannote/speaker-diarization-3.1"
     та "https://huggingface.co/pyannote/segmentation-3.0" і погодитися з їхніми вимогами.
   HuggingFace Token: Токен HuggingFace
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Діаризація
   GENERATE SUBTITLE FILE: СТВОРИТИ ФАЙЛ СУБТИТРІВ
   Output: Результат
@@ -500,6 +559,12 @@ ru:
     скачать модель, нужно вручную перейти на "https://huggingface.co/pyannote/speaker-diarization-3.1"
     и "https://huggingface.co/pyannote/segmentation-3.0" и согласиться с их требованиями.
   HuggingFace Token: Токен HuggingFace
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Диаризация
   GENERATE SUBTITLE FILE: СГЕНЕРИРОВАТЬ ФАЙЛ СУБТИТРОВ
   Output: Результат
@@ -554,6 +619,12 @@ tr:
     "https://huggingface.co/pyannote/speaker-diarization-3.1" ve "https://huggingface.co/pyannote/segmentation-3.0"
     adreslerine gidip gereksinimlerini kabul etmeniz gerekiyor
   HuggingFace Token: HuggingFace Anahtarı
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Konuşmacı Ayrımı
   GENERATE SUBTITLE FILE: ALTYAZI DOSYASI OLUŞTUR
   Output: Çıktı
@@ -608,6 +679,12 @@ eu:
     ere sartu behar. Eredua deskargatzeko, joan hurrengo esteketara "https://huggingface.co/pyannote/speaker-diarization-3.1"
     eta "https://huggingface.co/pyannote/segmentation-3.0" eta onartu haien erabilpen-baldintzak.
   HuggingFace Token: HuggingFace Tokena
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: Diarizazioa
   GENERATE SUBTITLE FILE: SORTU AZPITITULU-FITXATEGIA
   Output: Irteera
@@ -635,58 +712,69 @@ eu:
   Instrumental: Instrumentala
   Vocals: Ahotsak
   BGM Separation: BGM Bereizpena
-he: # Hebrew
+he:
   Language: שפה
-  File: קובץ
-  Youtube: יוטיוב
-  Mic: מיקרופון
-  T2T Translation: תרגום T2T
-  BGM Separation: הפרדת מוזיקת רקע
-  GENERATE SUBTITLE FILE: צור קובץ כתוביות
-  Output: פלט
-  Downloadable output file: קובץ פלט להורדה
   Upload File here: העלה קובץ כאן
   Model: מודל
   Automatic Detection: זיהוי אוטומטי
   File Format: פורמט קובץ
   Translate to English?: לתרגם לאנגלית?
   Add a timestamp to the end of the filename: הוסף חותמת זמן לסוף שם הקובץ
-  Advanced Parameters: פרמטרים מתקדמים
-  Background Music Remover Filter: מסנן הסרת מוזיקת רקע
-  Enabling this will remove background music: הפעלה תסיר מוזיקת רקע באמצעות מודל משנה לפני תמלול
-  Enable Background Music Remover Filter: אפשר מסנן הסרת מוזיקת רקע
-  Save separated files to output: שמור קבצים מופרדים לפלט
   Offload sub model when finished: נתק מודל משנה לאחר סיום
-  Voice Detection Filter: מסנן זיהוי קול
-  Enable this to transcribe only detected voice: אפשר זאת כדי לתמלל רק קטעי קול שזוהו על ידי מודל המשנה
-  Enable Silero VAD Filter: אפשר מסנן Silero VAD
-  Diarization: דיאריזציה (זיהוי דוברים)
-  Enable Diarization: אפשר דיאריזציה
-  HuggingFace Token: אסימון HuggingFace
-  This is only needed the first time you download the model: זה נדרש רק בפעם הראשונה שאתה מוריד את המודל. אם כבר יש לך את המודלים, אין צורך להזין זאת
+  Advanced Parameters: פרמטרים מתקדמים
+  Enabling this will remove background music: הפעלה תסיר מוזיקת רקע באמצעות מודל משנה
+    לפני תמלול
+  Enable Background Music Remover Filter: אפשר מסנן הסרת מוזיקת רקע
   Device: התקן
+  Save separated files to output: שמור קבצים מופרדים לפלט
+  Background Music Remover Filter: מסנן הסרת מוזיקת רקע
+  Enable this to transcribe only detected voice: אפשר זאת כדי לתמלל רק קטעי קול שזוהו
+    על ידי מודל המשנה
+  Enable Silero VAD Filter: אפשר מסנן Silero VAD
+  Voice Detection Filter: מסנן זיהוי קול
+  Enable Diarization: אפשר דיאריזציה
+  This is only needed the first time you download the model: זה נדרש רק בפעם הראשונה
+    שאתה מוריד את המודל. אם כבר יש לך את המודלים, אין צורך להזין זאת
+  HuggingFace Token: אסימון HuggingFace
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
+  Diarization: דיאריזציה (זיהוי דוברים)
+  GENERATE SUBTITLE FILE: צור קובץ כתוביות
+  Output: פלט
+  Downloadable output file: קובץ פלט להורדה
+  File: קובץ
   Youtube Link: קישור יוטיוב
   Youtube Thumbnail: תמונת תצוגה מקדימה של יוטיוב
   Youtube Title: כותרת יוטיוב
   Youtube Description: תיאור יוטיוב
+  Youtube: יוטיוב
   Record with Mic: הקלט עם מיקרופון
+  Mic: מיקרופון
   Upload Subtitle Files to translate here: העלה כאן קבצי כתוביות לתרגום
   Your Auth Key (API KEY): מפתח אימות שלך (API KEY)
   Source Language: שפת מקור
   Target Language: שפת יעד
   Pro User?: משתמש פרו?
   TRANSLATE SUBTITLE FILE: תרגם קובץ כתוביות
+  DeepL API: DeepL API
+  NLLB: NLLB
+  T2T Translation: תרגום T2T
   Upload Audio Files to separate background music: העלה קבצי שמע להפרדת מוזיקת רקע
+  SEPARATE BACKGROUND MUSIC: הפרד מוזיקת רקע
   Instrumental: אינסטרומנטלי
   Vocals: שירה
-  SEPARATE BACKGROUND MUSIC: הפרד מוזיקת רקע
+  BGM Separation: הפרדת מוזיקת רקע
 zh-TW:
   Language: 語言
   Upload File here: 在此處上傳檔案
   Model: 模型
   Automatic Detection: 自動偵測
   File Format: 檔案格式
-  Translate to English? (Whisper's End-To-End Speech-To-Text translation feature): 翻譯成英文？(Whisper 的端到端語音轉文字翻譯功能)
+  Translate to English?: Translate to English?
   Add a timestamp to the end of the filename: 在檔名結尾加入時間戳記
   Offload sub model when finished: 完成後卸載模型
   Advanced Parameters: 進階參數
@@ -699,9 +787,16 @@ zh-TW:
   Enable Silero VAD Filter: 啟用 Silero VAD 濾波器
   Voice Detection Filter: 語音偵測濾波器
   Enable Diarization: 啟用語者分離（Diarization）
-  This is only needed the first time you download the model: 只有第一次下載模型時才需要此步驟。
-     如果您已經有模型，則無需輸入。若要下載模型，您必須手動前往 "https://huggingface.co/pyannote/speaker-diarization-3.1" 和 "https://huggingface.co/pyannote/segmentation-3.0" 並同意其要求
+  This is only needed the first time you download the model: 只有第一次下載模型時才需要此步驟。 如果您已經有模型，則無需輸入。若要下載模型，您必須手動前往
+    "https://huggingface.co/pyannote/speaker-diarization-3.1" 和 "https://huggingface.co/pyannote/segmentation-3.0"
+    並同意其要求
   HuggingFace Token: HuggingFace 權杖（Token）
+  Minimum expected speakers (leave empty for auto-detection): Minimum expected speakers
+    (leave empty for auto-detection)
+  Min Speakers: Min Speakers
+  Maximum expected speakers (leave empty for auto-detection): Maximum expected speakers
+    (leave empty for auto-detection)
+  Max Speakers: Max Speakers
   Diarization: 語者分離
   GENERATE SUBTITLE FILE: 產生字幕檔案
   Output: 輸出
